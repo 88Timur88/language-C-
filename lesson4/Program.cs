@@ -15,7 +15,7 @@ else
     c =-a;
 }
 
-while(b < c)
+while(b <= c)
 {
     Console.WriteLine(b);
     b +=1;
