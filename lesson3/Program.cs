@@ -30,3 +30,7 @@ if(n == 7)
 {
     Console.WriteLine("Воскресенье");
 }
+if(n < 1 | n > 7)
+{
+    Console.WriteLine("Неправильно введено число");
+}
