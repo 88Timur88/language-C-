@@ -15,4 +15,3 @@ else
 {
     Console.Write("No");
 }
-
