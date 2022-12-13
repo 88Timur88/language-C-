@@ -1,12 +1,12 @@
 ﻿// Напишите программу, которая на вход принимает число и выдаёт,
 // является ли число чётным (делится ли оно на два без остатка);
 
-int number = int.Parse(Console.ReadLine());
+int a = int.Parse(Console.ReadLine());
+int b = 2;
 
-if( number / 2)
-{
-    Console.WriteLine("Yes");
-}
+int res = a % b;
+
+if(res == 0) Console.WriteLine("Yes");
 else
 {
     Console.WriteLine("No");
